@@ -5,7 +5,9 @@
     <?php wp_head(); ?>
 
 </head>
-<body>
+<body <?php body_class('example'); ?>>
+    <?php wp_body_open(); ?>
+
     <p>Hello World!</p>
 
     <?php wp_footer(); ?>
